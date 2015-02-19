@@ -87,5 +87,5 @@ Depot::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   require 'active_support/core_ext/numeric/bytes'
-  config.logger = Logger.new(paths['log'].first, 2, 10.megabytes)
+#  config.logger = Logger.new(paths['log'].first, 2, 10.megabytes)
 end
